@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Forbidden Fruit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+  <script src="./jquery2.js"></script>
+  <script src="./jquery-3.4.1.min.js"></script>
+</head>
+
+
+
+
+<body>
+
+                <!---- Cursor---> 
+                <div class='cursor' id="cursor"></div>
+                <div class='cursor2' id="cursor2">					
+                <div class="progress-wrap">
+                        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                        </svg>
+                </div>
+                </div>
+                <div class='cursor3' id="cursor3"></div>
+                <!---- Cursor Ende---> 
+                <!---- Navigationsbar --->
+                <nav id="mainNav">
+                        <div class="row">
+                                        <div class="col-lg-12 nav .mx-auto">
+                                                        <a class="a_1"  href="./index.html">Produkt</a>
+                                                        <a class="a_2 add"  >Hintergrund</a>
+                                                        <a class="a_3" >The Forbidden Fruit</a>
+                                                </div>      
+                        </div>
+                </nav>
+                <!---- Navigationsbar Ende--->         
+                <!---- Header--->
+                <div class="container_head_produkt">
+                        <div class="text-center intro-text" style="padding-top: 300px;">
+                            <div class="text-center intro-heading text-uppercase"><span style="color: rgb(112,1,238);font-size: 60px;font-family: Montserrat, sans-serif;font-weight: bold;">Mentacy</span></div>
+                            <div style="font-family: Montserrat, sans-serif;font-size: 12px;padding-bottom: 80px;padding-top: 150px;">
+                                <a class="button" type="button" style="font-weight: normal;" href="#">mehr</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <section class="paar">
+                                <!---- Paar --->
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:400px; padding-top:50px; padding-bottom:20px; padding-left:80px; padding-right:20px;  text-align: center;"> 
+                                    <p class="ee">Das Liebespaar</p>
+                                        <p>Obwohl das Produkt einen einfachen Interaktionsablauf bietet, ist es für Paare gedacht, die offen für neue Technik sind und auch ein gutes Verständnis dafür haben.
+                                        Das Paar positioniert die Mementos an der Box oder an der Auflegematratze, aber der Rest der technischen Interaktion passiert im Hintergrund, ohne dass das
+                                        Paar aktiv etwas machen muss. Die Interaktion zwischen dem Paar ist somit die Ressource für die Datenaufnahme.
+                                    </p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:400px; padding-left:80px;"> 
+                                        <img src="./Bilder/TFF-Paar.png" class="img-responsive" style="width:100%" alt="Image">
+                                </div>
+                                <!---- Box --->
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:400px; margin-left:60px;"> 
+                                        <img src="./Bilder/lTFF_Memento_box_T.png" class="img-responsive" style="width:100%" alt="Image">
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5" style="height:auto; padding-top:50px; padding-bottom:20px; padding-left:20px; padding-right:40px;  text-align: center;"> 
+                                            <p class="ee">Die Liebesbox</p> 
+                                        <p>Die zwei Boxhälften werden durch Magnete, welche sich auf der Außenseite der Holzbox befinden, zusammengefügt. Desweiteren befinden sich jeweils
+                                        ein LED und ein RFID Reader innerhalb der Mementohalterungen.  Außerdem ist in der Holzbox ein Esp32 verbaut, welcher die Daten empfängt und
+                                        weiterschickt. Für den Auf- und Zuklappmechanismus des Deckels fungiert ein Servomotor (Goolsky DS3218MG Servo) als Schlüssel für die Ver- und Entriegelung.
+                                        </p>
+                                </div>
+                                <!---- Memento --->
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:auto; padding-top:50px; padding-bottom:20px; padding-left:80px; padding-right:20px;  text-align: center;"> 
+                                            <p class="ee">Memento - In Erinnerung bleiben</p> 
+                                                <p>Die Form der Mementos ist an der Handoberfläche/Handinnenseite angepasst, um eine natürliche Greifbarkeit zu ermöglichen. Auf der Vorderseite jedes
+                                                Mementos befindet sich ein Lichtfenster, welches aus einem LED Streifen besteht. Die Lichtfenster werden mit milchigem Silikon-Gummi umhüllt.
+                                                Sobald dieser Bereich leuchtet, wir dem Nutzer kommuniziert, seine Aufmerksamkeit auf das Memento zu richten. Die Mementos sind mit ESPs ausgerüstet,
+                                                welche als „slaves” des Masters, also der Holzbox, dienen. Die Mementos erhalten durch eingebauter RFID Chips die verarbeiteten Daten, welche durch
+                                                die Sensorik innerhalb der Auflegematratze aufgenommen werden. Die Ladezustände der Lichtfenster stellen die aufgenommenen Daten dar. Sobald die
+                                                Mementos den vollen Ladezustand erreicht haben, dienen diese als Schlüssel für die Entriegelung der Holzbox.</p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:400px; padding-left:80px;"> 
+                                        <img src="./Bilder/TFF-Memento-T.png" class="img-responsive" style="width:100%" alt="Image">
+                                </div>
+                                <!---- Matratze --->
+                                <div class="col-sm-6 col-md-6 col-lg-6" style="height:400px;  margin-left:60px;"> 
+                                        <img src="./Bilder/TFF-Matratze-T 3.png" class="img-responsive" style="width:100%" alt="Image">
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5" style="height:auto; padding-top:50px; padding-bottom:20px; padding-left:20px; padding-right:40px;  text-align: center;"> 
+                                            <p class="ee">Die Auflegematratze</p> 
+                                        <p>In der Schaumstofffüllung der Auflegematratze wird die benötigte Technik (KY-039/ Herzfrequenz, LM35DZ/ Temperatursensor, Arduino Short Flex/Bend Sensor
+                                                [ADA 1070]/ Flexsensor, DHT22/AM2302/ Luftfeuchtigkeit) eingebunden. Um die Datenaufnahme zu starten, werden Flex Sensoren benutzt, welche den Druck,
+                                                der auf der Matratze verübt wird, aufnehmen. Somit kann festgestellt werden, ob sich das Paar auf der Matratze befindet oder nicht.
+                                                Die Temperatursensoren sind ebenfalls ein Bestandteil der benötigten Technik. Diese nehmen die Körpertemperatur der Nutzer auf. Eine weitere
+                                                Komponente der Sensorik ist der Luftfeuchtigkeitsensor, welcher die zunehmende Luftfeuchtigkeit während der Intimität misst. Und noch hinzu
+                                                kommt der Herzschlagsensor, welcher die Herzfrequenz der Nutzer während intimer Zweisamkeit ermittelt. Die erhobenen Daten werden an die Box
+                                                 geschickt und dort bearbeitet. Danach werden diese Daten an das jeweilige Memento zugeteilt, um den Ladezustand anzuzeigen. Die Platzhalter
+                                                für die Mementos befinden sich auf den vertikalen  Außenseiten (rechts und links)  der Auflegematratze. Diese werden mit RFID chip readern
+                                                ausgestattet sowie mit einem LED. Das LED leuchtet in einer bestimmten Farbe auf sowie das zugehörige Memento. Dem Nutzer soll somit verständlich
+                                                gemacht werden, welches Memento an den jeweiligen Platzhaltern gesteckt werden soll.</p>
+                                </div>
+
+                                <div class="col-sm-12 col-md-12 col-lg-12" style="height:500px; background-color: #6100ff;"> 
+                                        <p class="ed">Daten</p>
+                                
+                                        <div class="semesteraufgabe">Die Kommunikation zwischen den Devices beschränkt sich nur in den eigenen vier Wänden. Wir wollen nämlich nicht, dass
+                                                private Daten des Nutzers in das World-Wide-Web freigegeben werden! Die Verschlüsselung der Daten erfolgt nach dem End-to-End Prinzip.
+                                                Das heißt also, dass der Nutzer eine übergreifende Sicht über die Funktionen und Prozesse des IoT-Systems erhält. Desweiteren werden die
+                                                erhobenen Daten nur so lange gespeichert, bis sich die Holzbox wieder entschließt und die Geschenke entnommen werden. Die bis dahin gesammelten
+                                                Daten werden anschließend gelöscht und die Datenaufnahme bei der nächsten Benutzung erfolgt von Neuem. 
+                                                Bei der Auswahl der Übertragungsart haben wir zwischen WLAN und Bluetooth abgewogen. Für unser Produkt wird WLAN als Übertragungsart genutzt,
+                                                da Sicherheit eine große Rolle in unserem IoT-Ökosystem spielt. Im Gegensatz zu WLAN ist Bluetooth weniger sicher, da es sich in der Authentifizierung als mangelhaft erwiesen hat.</div>
+                                    </div>
+                            </section>
+                                <!---- Ende --->
+                                </div>  
+                              </div>
+                            </div>
+                            
+                            <footer class="col-sm-12 col-md-12 col-lg-12 container-fluid text-center">
+                              <p>©The Forbidden Fruit 2019</p>
+                            </footer>
+                            
+                            </body>
+                            </html>
