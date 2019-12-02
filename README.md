@@ -1,65 +1,63 @@
-# MENTACY
+# Mentacy 🛏🎁
 
-Mentacy by The Forbidden Fruit | Internet der Dinge | 4. Semester | Interactive Media Design | SoSe 2019
+**[Mentacy](https://imd.mediencampus.h-da.de/projekt/mentacy/) by The Forbidden Fruit | Internet der Dinge | 4. Semester | [Interactive Media Design](https://imd.mediencampus.h-da.de/) | SoSe 2019**
 
-<h1><b>Projektbeschreibung</b></h1>
+# Projektbeschreibung
 
 Das IoT-Produkt Mentacy besteht aus zwei Holzboxen, in der das Paar füreinander Liebeswürdigkeiten (z.B. einen Brief oder ein Parfum) verstecken kann. Schiebt man diese zusammen, verschließt sich die Box automatisch. Nun liegt es an dem Paar, diese wieder spielerisch auf zu bekommen. Dies geschieht nur, wenn sich die zwei Liebenden genügend Aufmerksamkeit schenken und miteinander intime Momente sammeln.
 
-<h1>Bestandteile des Prototypes</h1>
+# Bestandteile des Prototypes
 
-<h2>Die linke Holzbox</h2>
+## Die linke Holzbox
+Der Prototype besteht aus zwei Holzboxen. Die **linke Holzbox** *(Ansicht: vorne Memento und hinten Scharniere)* beinhaltet …
 
-Der Prototype besteht aus zwei Holzboxen. Die <b>linke Holzbox</b> <i>(Ansicht: vorne Memento und hinten Scharniere)</i> beinhaltet …
+- aus 0,8mm Pappelholz & 2 x Magnet-Pol +
+- 1 x Arduino Uno
+- 1 x Servo Motor (DSSERVO DS3218MG) + Gegenpart
+- 1 x RFID-Chip (MFRC522)
+- 1 x Memento á 3 LED´s + Magnet-Pol -
+- 1 x Memento á 3 LED´s mit RFID Tag + Magnet-Pol +
+    - eine LED als Status-LED für Memento
 
-  - aus 0,8mm Pappelholz & 2 x Magnet-Pol +
-  - 1 x Arduino Uno
-  - 1 x Servo Motor (DSSERVO DS3218MG) + Gegenpart
-  - 1 x RFID-Chip (MFRC522)
-  - 1 x Memento á 3 LED´s + Magnet-Pol -
-  - 1 x Memento á 3 LED´s mit RFID Tag + Magnet-Pol +
-     - eine LED als Status-LED für Memento
+*Datei: ./Mentacy-Box/LinkeBox/LinkeBox.ino*
 
-<i>Datei: ./Mentacy-Box/LinkeBox/LinkeBox.ino</i>
+## Die rechte Holzbox
+Die **rechte Holzbox** *(Ansicht: vorne Memento und hinten Scharniere)* besteht aus …
 
-<h2>Die rechte Holzbox</h2>
+- aus 0,8mm Pappelholz & 2 x Magnet-Pol +
+- 1 x Arduino Uno
+- 2 x Mementos á 3 LED´s & 2 x Magnet-Pol -
 
-Die </b>rechte Holzbox</b> <i>(Ansicht: vorne Memento und hinten Scharniere)</i> besteht aus …
+*Datei: ./Mentacy-Box/RechteBox/RechteBox.ino*
 
-  - aus 0,8mm Pappelholz & 2 x Magnet-Pol +
-  - 1 x Arduino Uno
-  - 2 x Mementos á 3 LED´s & 2 x Magnet-Pol -
+# Skizzen
+## **Holzbox**
+![lTFF_Memento_box](https://user-images.githubusercontent.com/33021996/61012465-f6015500-a37e-11e9-9aa3-1bbe51485d1e.png)
+**…mit verbauter Technik:**
+![lTFF_Memento_box_T](https://user-images.githubusercontent.com/33021996/61014017-9bb7c280-a385-11e9-9897-1b72276e9f59.png)
 
-<i>Datei: ./Mentacy-Box/RechteBox/RechteBox.ino</i>
 
-<h1>Skizzen</h1>
-<h2>Holzbox</h2>
+## **Memento**
+![TFF-Memento](https://user-images.githubusercontent.com/33021996/61014266-e554dd00-a386-11e9-8f42-7184145be4bc.png)
+**…mit verbauter Technik:**
+![TFF-Memento-T](https://user-images.githubusercontent.com/33021996/61014278-f4d42600-a386-11e9-864a-f9eebc1cc0c7.png)
 
-lTFF_Memento_box …mit verbauter Technik: lTFF_Memento_box_T
-<h2>Memento</h2>
 
-TFF-Memento …mit verbauter Technik: TFF-Memento-T
-
-<h1>DONE</h1>
-
+# DONE
 - [x] Holzboxen bauen
 
+# Vision
 
-<h1>Vision</h1>
-
-<b>Auflegematratze</b>
-
+**Auflegematratze**
 - [ ] Matratzen-Prototype bauen & testen
-    
-    TFF-Matratze-T 2
+![TFF-Matratze-T 2](https://user-images.githubusercontent.com/33021996/61014004-90649700-a385-11e9-846b-58c5fe9880f0.png)
 
 - [ ] Arduinos an Holzbox durch ESP´s ersetzen
-
-- [ ] ESP - Kommunikation zwischen Mementos, linke und rechte Holzbox und der Auflegematratze <i>(Ordner: Demo-Memento)</i>
-
+- [ ] ESP - Kommunikation zwischen Mementos, linke und rechte Holzbox und der Auflegematratze *(Ordner: Demo-Memento)*
 - [ ] Fritzing vom Holzbox-Prototyp
 
-Für Feedback und/oder Fragen stehen wir Ihnen gerne zur Verfügung.
+---
+*Für Feedback und/oder Fragen stehen wir Ihnen gerne zur Verfügung.*
 
-Liebe Grüße
-<b>The Forbidden Fruit mit Mentacy</b>
+**Liebe Grüße <br/> The Forbidden Fruit mit Mentacy**
+ 
